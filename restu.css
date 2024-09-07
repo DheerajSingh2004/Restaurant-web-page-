@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('pahadi king.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    background-image: 30px 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #e94e77;
+    color: #edf907;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ #about, {
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    flex: 1;
+    max-width: 300px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    aspect-ratio: 3/2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#contact {
+ 
+     background-color: #acdfe0;  
+     border: 3px solid #121111;
+     text-align: center;
+     border-radius: 50px;
+     display: inline-block;
+     width: 40%;
+     margin: auto;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     min-height: 20vh;  
+     display: flex;
+     line-height: 2.5;
+
+     
+    
+
+}
